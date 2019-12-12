@@ -15,8 +15,8 @@ class Formatter {
       }else if(g[i]=='the' ||g[i]=='a'||g[i]=='an'||g[i]=='but'||g[i]=='of'||g[i]=='and'||g[i]=='for'||g[i]=='at'||g[i]=='by'||g[i]=='form' ){
         all.push(g[i])
       }else{
-        let cap=g[i].charAt(0).toUpperCase()
-        all.push(g[i].charAt(0).toUpperCase().slice(1))
+        let cap=g[i].charAt(0).toUpperCase()+g[i].slice(1);
+        all.push(cap)
       }
     }
     let u= all.join()
