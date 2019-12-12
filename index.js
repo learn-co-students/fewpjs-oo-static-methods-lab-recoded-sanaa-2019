@@ -15,7 +15,8 @@ class Formatter {
         all.push(g[i].toUpperCase())
       }
     }
-    return all.join().replace(","," ")
+    let u= all.join().replace(","," ")
+    return u
   
   }
 }
