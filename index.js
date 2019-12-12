@@ -8,7 +8,7 @@ class Formatter {
    static titleize(string){
     let g= string.split(" ");
     for(let i=0;i<g.length;i++){
-      if(g[i]==)
+      if(g[i]=='the' ||g[i]=='a'||g[i]=='an'||g[i]=='but'||g[i]=='of'||g[i]=='and'||g[i]=='for'||g[i]=='at'||g[i]=='by'||g[i]=='form' )
     }
   
   }
