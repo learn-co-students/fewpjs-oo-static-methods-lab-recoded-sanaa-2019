@@ -7,6 +7,9 @@ class Formatter {
   }
    static titleize(string){
     let g= string.split(" ");
+    for(let i=0;i<g.length;i++){
+      if(g[i]==)
+    }
   
   }
 }
