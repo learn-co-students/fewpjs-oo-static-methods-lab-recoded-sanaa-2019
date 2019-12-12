@@ -10,7 +10,7 @@ class Formatter {
     let all=[]
     for(let i=0;i<g.length;i++){
       if(i==0){
-        )let cap=g[i].toUpperCase()
+        let cap=g[i].toUpperCase()
         all.push(cap)
       }else if(g[i]=='the' ||g[i]=='a'||g[i]=='an'||g[i]=='but'||g[i]=='of'||g[i]=='and'||g[i]=='for'||g[i]=='at'||g[i]=='by'||g[i]=='form' ){
         all.push(g[i])
