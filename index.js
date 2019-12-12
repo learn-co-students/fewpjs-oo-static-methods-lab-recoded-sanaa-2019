@@ -16,7 +16,7 @@ class Formatter {
       }
     }
     let u= all.join()
-   let g= u.replace(","," ")
+   let sentence= u.replace(","," ")
   return g
   }
 }
