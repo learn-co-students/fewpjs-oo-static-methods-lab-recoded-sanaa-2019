@@ -19,7 +19,7 @@ class Formatter {
         all.push(cap)
       }
     }
-    let u= all.join(" ")
+ 
    let sentence= all.join(" ")
   return sentence
   }
