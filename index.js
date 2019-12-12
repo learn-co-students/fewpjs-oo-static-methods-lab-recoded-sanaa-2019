@@ -6,9 +6,7 @@ class Formatter {
   return string.replace(/[^A-Za-z0-9-']+/g, '');
   }
    static titleize(string){
-    for(let i=0;i<string.length;i++){
-      if()
-    }
+    
   
   }
 }
