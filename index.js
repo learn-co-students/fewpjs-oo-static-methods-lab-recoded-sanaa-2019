@@ -5,7 +5,6 @@ class Formatter {
     static sanitize(string){
   return string.replace(/[^A-Za-z0-9-']+/g, '');
   }
-  
    static titleize(string){
     let g= string.split(" ");
     let all=[]
@@ -16,12 +15,12 @@ class Formatter {
       }else if(g[i]=='the' ||g[i]=='a'||g[i]=='an'||g[i]=='but'||g[i]=='of'||g[i]=='and'||g[i]=='for'||g[i]=='at'||g[i]=='by'||g[i]=='form' ){
         all.push(g[i])
       }else{
-        let cap=g[i]
-        all.push(cap.toUpperCase())
+        
+        all.push(g[i].charAt(0).toUpperCase())
       }
     }
     let u= all.join()
    let sentence=u.split(',').join(' ')
-  return sentence+all
+  return sentence
   }
 }
