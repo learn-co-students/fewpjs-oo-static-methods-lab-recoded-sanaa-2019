@@ -5,6 +5,7 @@ class Formatter {
     static sanitize(string){
   return string.replace(/[^A-Za-z0-9-']+/g, '');
   }
+  
    static titleize(string){
     let g= string.split(" ");
     let all=[]
@@ -21,6 +22,6 @@ class Formatter {
     }
     let u= all.join()
    let sentence=u.split(',').join(' ')
-  return sentence+g[i]
+  return sentence+all
   }
 }
