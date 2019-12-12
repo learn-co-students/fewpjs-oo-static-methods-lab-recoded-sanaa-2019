@@ -16,7 +16,7 @@ class Formatter {
         all.push(g[i])
       }else{
         
-        all.push(g[i].charAt(0).toUpperCase())
+        all.push(g[i].charAt(0).toUpperCase().slice(1))
       }
     }
     let u= all.join()
