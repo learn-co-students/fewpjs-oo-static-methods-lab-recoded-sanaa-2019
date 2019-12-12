@@ -20,7 +20,7 @@ class Formatter {
       }
     }
     let u= all.join(" ")
-   let sentence=u.split(',').join(' ')
+   let sentence= all.join(" ")
   return sentence
   }
 }
