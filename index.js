@@ -21,6 +21,6 @@ class Formatter {
     }
     let u= all.join()
    let sentence=u.split(',').join(' ')
-  return sentence
+  return sentence+g[i]
   }
 }
